@@ -1,7 +1,6 @@
 # Twitter_Automated_Reply_Bot
 Software Dependancies
-
-Python v 3.5.2
+- Python v 3.5.2
 - Tweepy (latest version)
 - VirtualEnv (latest version)
 - Beautiful Soup (latest version)

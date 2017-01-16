@@ -15,7 +15,7 @@ Steps to get the content from github
 - Install the aforementioned dependancies
 - Follow individual deployment steps mentioned below for each bot
 
-The protest bot worls on the concept of information dissemination. The motive is to find people who are tweeting about facts that happened on the current day and then send them more facts. These facts are extracted each day from Wikipedia.
+The protest bot works on the concept of information dissemination. The motive is to find people who are tweeting about facts that happened on the current day and then send them more facts. These facts are extracted each day from Wikipedia.
 
 Workflow
 - Pre-Processor Module: Scraping.py script is the pre-processor script. It scrapes events occured on each day from Wikipedia. There is a filter internally with an array of keywords. Each event is then parsed to find a keyword from the above list and if present, the event is added to a file. In the end of the scraping, we are left with all the events of the day from Wikipedia that have at least one keyword from the filter set. All of the facts are written to a file which will be further used by the Editorial logic module.
